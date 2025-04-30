@@ -33,7 +33,7 @@ public class ClientActivity extends AppCompatActivity {
     private static final int REQUEST_CODE_PERMISSIONS = 10;
     private static final String[] REQUIRED_PERMISSIONS = new String[]{Manifest.permission.CAMERA};
 
-    private static final String SERVER_IP = "10.40.1.77"; // Update if necessary
+    private static final String SERVER_IP = "10.0.2.2"; // Update if necessary
     private static final int SERVER_PORT = 8080;
 
     private Socket socket;
